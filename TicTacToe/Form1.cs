@@ -66,7 +66,7 @@ namespace TicTacToe
             //diagonal checks
             if ((b1.Text == b5.Text) && (b5.Text == b9.Text) && (!b1.Enabled))
                 winner = true;
-            else if ((b3.Text == b5.Text) && (b5.Text == b7.Text) && (!b3.Enabled))
+            else if ((b3.Text == b5.Text) && (b5.Text == b7.Text) && (!b.Enabled))
                 winner = true;
 
 
